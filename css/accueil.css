@@ -1,0 +1,39 @@
+html {
+    font-size: 100%;
+    background: rgb(163,141,245);
+    background: linear-gradient(0deg, rgba(163,141,245,1) 41%, rgba(253,187,45,1) 100%);
+}
+.texte {
+    text-align: center;
+    font-size: 1.6rem;
+    font-family: "Source Sans Pro", sans-serif;
+    color: #ffffff;
+}
+#wraper {
+    top: 200px;
+    width: 1600px;
+    height: 2830px;
+    margin: 0 auto;
+    min-height: 200%;
+    position: relative;
+}
+img {
+    height: 400px;
+    width: 310px;
+    object-fit: cover;
+    border-radius: 2%;
+    transition: transform .1s;
+}
+#footer {
+    height: 250px;
+    background-color: wheat;
+    position: relative;
+    font-size: 1.6rem;
+    font-family: "Source Sans Pro", sans-serif;
+    color: #585757;
+}
+img:hover{
+    -ms-transform: scale(1.1); 
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1); 
+}
